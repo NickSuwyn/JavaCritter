@@ -3,6 +3,6 @@ import java.util.List;
 
 public interface Critter {
 	
-	public Move chooseMove(List<Tile> tiles);
+	public Move chooseMove(Response response);
 
 }

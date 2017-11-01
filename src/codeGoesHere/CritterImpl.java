@@ -4,6 +4,7 @@ import java.util.List;
 
 import suppliedCode.Critter;
 import suppliedCode.Move;
+import suppliedCode.Response;
 import suppliedCode.Tile;
 
 public class CritterImpl implements Critter {
@@ -11,7 +12,7 @@ public class CritterImpl implements Critter {
 	int counter = 0;
 
 	@Override
-	public Move chooseMove(List<Tile> tiles) {
+	public Move chooseMove(Response response) {
 
 		if (counter == 0) {
 			counter++;
